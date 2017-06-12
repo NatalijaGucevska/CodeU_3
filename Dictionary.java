@@ -10,6 +10,10 @@ public class Dictionary {
 		}
 	}
 
+	public boolean removeWord(String word) {
+		return dict.remove(word);
+	}
+
 	public boolean isWord(String word) {
 		return dict.contains(word);
 	}
